@@ -8,7 +8,7 @@ require 'rspec'
 #configurar capybara para usar com selenium
 Capybara.configure do |config|
 
-    config.default_driver = :selenium_chrome # essa configuração é para instanciar o browser com Firefox
+    config.default_driver = :selenium_chrome_headless # essa configuração é para instanciar o browser com Firefox
 
     config.app_host = 'https://automacaocombatista.herokuapp.com/' 
 end
