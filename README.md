@@ -42,7 +42,7 @@ cria a instância do driver e passa a url que será acessada.
 
 No `hooks.rb` é onde fazemos a intância das páginas e criamos os metodos de before e after.
 
-É necessário executar este comando para executar os teste:
+**É necessário executar este comando para executar os teste:**
 
 ```sh
 $ cucumber
